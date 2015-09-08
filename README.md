@@ -248,6 +248,17 @@
     var good = new User('yup');
     ```
 
+  - Use UPPERCASE when naming constants.
+
+    ```javascript
+    // bad
+    var thisIsAConstant = 'abc';
+    var this_is_also_a_constant = 'xyz';
+
+    // good
+    var THIS_IS_A_CONSTANT = 'abc';
+    ```
+
   - Use a leading underscore `_` when naming private properties.
 
     ```javascript
