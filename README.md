@@ -66,21 +66,22 @@
     ```
 
   - Avoid comma first syntax
-  ```javascript
-  // bad
-  var foo = [
-    name: 'abc'
-  , addr: 'xyz'
-  , ph: 9876543210
-  ];
+  
+    ```javascript
+    // bad
+    var foo = [
+      name: 'abc'
+    , addr: 'xyz'
+    , ph: 9876543210
+    ];
 
-  // good
-  var foo = [
-    name: 'abc',
-    addr: 'xyz',
-    ph: 9876543210
-  ];
-  ```
+    // good
+    var foo = [
+      name: 'abc',
+      addr: 'xyz',
+      ph: 9876543210
+    ];
+    ```
 
 **[⬆ back to top](#table-of-contents)**
 
