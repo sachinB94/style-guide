@@ -66,7 +66,7 @@
     ```
 
   - Avoid comma first syntax
-  
+
     ```javascript
     // bad
     var foo = [
@@ -349,7 +349,7 @@
 
 ## Blocks
 
-  - Use braces with all the blocks (even single line 'if' statements).
+  - Use braces with all the blocks (even single line `if` statements).
 
     ```javascript
     // bad
